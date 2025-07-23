@@ -63,6 +63,10 @@ A fun and interactive two-player dice game built with HTML, CSS, and JavaScript.
 - Change winning score in `script.js`
 - Modify colors and styling in `style.css`
 - Adjust animations and transitions
+## 🖼️ Images
+<img width="1919" height="905" alt="img1" src="https://github.com/user-attachments/assets/ce57b2aa-9091-4e98-9bef-db8479486a00" />
+<img width="1788" height="900" alt="img2" src="https://github.com/user-attachments/assets/c6cda470-5a0c-456d-b3ea-6776e365b8cf" />
+<img width="1919" height="899" alt="img3" src="https://github.com/user-attachments/assets/8d3a858e-65f5-4aca-8c51-8e56311be7c8" />
 
 ## 👥 Contributing
 
