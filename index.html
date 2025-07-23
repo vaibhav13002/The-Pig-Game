@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Pig Game</title>
+</head>
+
+<body>
+  <main>
+    <section class="player player--0 player--active">
+      <h2 class="name" id="name--0">Player 1</h2>
+      <p class="score" id="score--0">43</p>
+      <div class="winner-trophy winner-trophy--0 hidden">
+        <img src="winner.png" alt="Winner" class="winner-dice">
+      </div>
+      <div class="current">
+        <p class="current-label">Current</p>
+        <p class="current-score" id="current--0">0</p>
+      </div>
+    </section>
+    <section class="player player--1">
+      <h2 class="name" id="name--1">Player 2</h2>
+      <p class="score" id="score--1">24</p>
+      <div class="winner-trophy winner-trophy--1 hidden">
+        <img src="winner.png" alt="Winner" class="winner-dice">
+      </div>
+      <div class="current">
+        <p class="current-label">Current</p>
+        <p class="current-score" id="current--1">0</p>
+      </div>
+    </section>
+
+    <img src="dice-5.png" alt="Playing dice" class="dice" />
+    <button class="btn btn--new">🔄 New game</button>
+    <button class="btn btn--roll">🎲 Roll dice</button>
+    <button class="btn btn--hold">📥 Hold</button>
+
+  </main>
+  <!-- How to Play Button -->
+  <button class="btn btn--howtoplay">❓ How to Play</button>
+
+  <!-- Modal Overlay -->
+  <div class="modal hidden">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>🧠 How to Play</h2>
+      <ol>
+        <li>
+          🎲 <strong>Roll the Dice:</strong><br />
+          Click the <em>“ROLL DICE”</em> button to roll. The dice value (2–6) will be added to your current score.
+        </li>
+        <li>
+          ⛔ <strong>Watch out for 1:</strong><br />
+          If you roll a 1, your current round score is lost, and your turn switches to the next player.
+        </li>
+        <li>
+          📥 <strong>Hold to Save:</strong><br />
+          If you want to keep your accumulated current score, click the <em>“HOLD”</em> button to add it to your total
+          score.
+        </li>
+        <li>
+          🔄 <strong>Switching Turns:</strong><br />
+          After holding or rolling a 1, the turn automatically passes to the other player.
+        </li>
+        <li>
+          🏆 <strong>Win Condition:</strong><br />
+          The first player to reach <strong>20 points</strong> in total wins the match.
+        </li>
+        <li>
+          ♻️ <strong>New Game:</strong><br />
+          Click the <em>“NEW GAME”</em> button at any time to reset the scores and start a new match.
+        </li>
+      </ol>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
