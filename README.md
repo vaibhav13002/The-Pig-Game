@@ -1,6 +1,7 @@
 # 🎲 Pig Game
 
 A fun and interactive two-player dice game built with HTML, CSS, and JavaScript. Players take turns rolling a die, accumulating points with the goal of reaching 20 points first.
+Live link:- https://the-pig-game-chi.vercel.app/
 
 ![Pig Game Preview](pig-game-flowchart.png)
 
